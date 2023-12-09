@@ -180,3 +180,40 @@ Which object depends on how this is being invoked (used or called).
 
 The this keyword refers to different objects depending on how it is used
 */
+
+
+/*    Loops    */
+for( var i = 0 ; i < 5 ; i++) {
+    // code to be iterated multiple times when above condition is true.
+}
+
+do {
+  // code to be executed atleast once is to be written here and then check the condition below.
+  // i++;
+} while (i < 5);
+
+while (i < 5) {
+  // code to be executed
+  // i++;
+}
+
+
+
+
+
+/******Conditionals */
+
+if(condition){
+  // code to be executed if condition is true
+} else {
+  //code to be executed if above condition check is false
+}
+
+
+if (a < 5) { 
+  // code to be executed if condition is true.
+} else if ( a = 5) {
+  // code to be executed with multiple if condition to be checked.
+} else {
+  // code to be executed if above both condition check are false.
+}
