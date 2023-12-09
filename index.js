@@ -217,3 +217,31 @@ if (a < 5) {
 } else {
   // code to be executed if above both condition check are false.
 }
+
+
+
+/********DOM Selector******/
+// DOM selector are use to access and manipulate the HTML elements
+
+document.getElementById(id)  // find element by element id
+document.getElementsByTagName(name) // fin element by tag name
+document.getElementsByClassName(name) //find elements by class name
+
+//property  
+element.innerHTML = new html //content; // change the inner HTML element
+element.attribute = new value  //change the attribute value of an HTMK element
+element.style.property = new style //change the style of an HTML element 
+
+//method
+element.setAttribute(attribute, value) // change the attribue value of an HTML element
+
+//Adding and deleting HTML elements
+document.createElement(element)  //create an HTML element
+document.removeChild(element)  //remove an HTML element
+document.appendChild(element)  //add an HTML element
+document.replaceChild(neu, old) //replace an HTML element
+document.write(text) // write into HTML output stream
+
+
+
+/***** *******/
